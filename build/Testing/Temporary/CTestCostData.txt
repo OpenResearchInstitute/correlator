@@ -1,4 +1,0 @@
-test_howto 62 4.18386e-05
-qa_square_ff 63 0.00277919
-qa_bpsk90_cf 4 0.0443295
----

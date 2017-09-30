@@ -1,1 +1,0 @@
-/usr/bin/c++   -O3 -DNDEBUG   CMakeFiles/howto_swig_swig_2d0df.dir/howto_swig_swig_2d0df.cpp.o  -o howto_swig_swig_2d0df -rdynamic 
