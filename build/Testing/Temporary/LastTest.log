@@ -1,0 +1,208 @@
+Start testing: Sep 29 19:10 PDT
+----------------------------------------------------------
+1/3 Testing: test_howto
+1/3 Test: test_howto
+Command: "/bin/sh" "/home/abraxas3d/gr-howto/build/lib/test_howto_test.sh"
+Directory: /home/abraxas3d/gr-howto/build/lib
+"test_howto" start time: Sep 29 19:10 PDT
+Output:
+----------------------------------------------------------
+..
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_howto" end time: Sep 29 19:10 PDT
+"test_howto" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: qa_square_ff
+2/3 Test: qa_square_ff
+Command: "/bin/sh" "/home/abraxas3d/gr-howto/build/python/qa_square_ff_test.sh"
+Directory: /home/abraxas3d/gr-howto/build/python
+"qa_square_ff" start time: Sep 29 19:10 PDT
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"qa_square_ff" end time: Sep 29 19:10 PDT
+"qa_square_ff" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: qa_bpsk90_cf
+3/3 Test: qa_bpsk90_cf
+Command: "/bin/sh" "/home/abraxas3d/gr-howto/build/python/qa_bpsk90_cf_test.sh"
+Directory: /home/abraxas3d/gr-howto/build/python
+"qa_bpsk90_cf" start time: Sep 29 19:10 PDT
+Output:
+----------------------------------------------------------
+We are starting work
+i = 0 prev = 0.000000 0.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 1 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 2 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 3 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 4 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 5 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 6 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 7 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 8 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 9 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 10 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 11 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 12 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 13 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 14 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 15 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 16 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 17 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 18 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 19 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 20 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 21 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 22 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 23 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 24 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 25 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 26 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 27 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 28 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 29 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 30 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 31 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 32 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 33 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 34 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 35 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 36 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 37 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 38 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 39 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 40 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 41 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 42 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 43 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 44 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 45 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 46 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 47 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 48 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 49 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 50 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 51 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 52 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 53 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 54 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 55 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 56 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 57 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 58 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 59 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 60 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 61 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 62 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 63 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+We are starting work
+i = 0 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 1 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 2 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 3 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 4 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 5 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 6 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 7 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+We are starting work
+i = 0 prev = 0.000000 0.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 1 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 2 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 3 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 4 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 5 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 6 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 7 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 8 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 9 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 10 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 11 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 12 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 13 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 14 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 15 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 16 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 17 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 18 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 19 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 20 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 21 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 22 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 23 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 24 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 25 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 26 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 27 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 28 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 29 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 30 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 31 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 32 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 33 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 34 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 35 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 36 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 37 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 38 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 39 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 40 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 41 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 42 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 43 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 44 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 45 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+i = 46 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 47 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 48 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 49 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 50 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 51 prev = -1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 52 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 53 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+i = 54 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 55 prev = 1.000000 1.000000i curr = 1.000000 -1.000000i TESLA! 1 Power! 1.000000
+i = 56 prev = 1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 7 Power! 1.000000
+i = 57 prev = -1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 14 Power! 1.000000
+i = 58 prev = -1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 8 Power! 1.000000
+i = 59 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 60 prev = -1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 11 Power! -1.000000
+i = 61 prev = -1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 13 Power! -1.000000
+i = 62 prev = 1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 4 Power! -1.000000
+i = 63 prev = 1.000000 1.000000i curr = 1.000000 1.000000i TESLA! 0 Power! 0.000000
+We are starting work
+i = 0 prev = 1.000000 1.000000i curr = -1.000000 -1.000000i TESLA! 3 Power! 0.000000
+i = 1 prev = -1.000000 -1.000000i curr = -1.000000 -1.000000i TESLA! 15 Power! 0.000000
+i = 2 prev = -1.000000 -1.000000i curr = 1.000000 1.000000i TESLA! 12 Power! 0.000000
+i = 3 prev = 1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 2 Power! -1.000000
+i = 4 prev = -1.000000 1.000000i curr = -1.000000 1.000000i TESLA! 10 Power! 0.000000
+i = 5 prev = -1.000000 1.000000i curr = 1.
+----------------------------------------------------------------------
+Ran 1 test in 0.002s
+
+OK
+.000000 -1.000000i TESLA! 9 Power! 0.000000
+i = 6 prev = 1.000000 -1.000000i curr = 1.000000 -1.000000i TESLA! 5 Power! 0.000000
+i = 7 prev = 1.000000 -1.000000i curr = -1.000000 1.000000i TESLA! 6 Power! 0.000000
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"qa_bpsk90_cf" end time: Sep 29 19:10 PDT
+"qa_bpsk90_cf" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 29 19:10 PDT
