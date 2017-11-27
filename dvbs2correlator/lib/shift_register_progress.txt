@@ -1,0 +1,11 @@
+shift_register.h and shift_register.cc are the shift register class files.
+they compile now
+shift_register_unit_test.h attempts to set up the cppunit framework so 
+we can do a unit test for this class.
+
+shift_register_TestRunner.cc is where the unit test is ??? not sure what
+the hell it is supposed to be doing. Maybe setting up the test that I 
+thought was est up with shift_register_unit_test. 
+
+The test runner framework is above the unit test stuff in cppunit.
+There is also fixtures, which is in between unit tests and test runners.
