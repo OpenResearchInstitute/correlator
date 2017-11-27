@@ -1,3 +1,5 @@
+% This script generates the binary value of the PLSCODE for DVB-S2.
+
 % The MODCOD field is 5 bits that indicate modulation and coding according 
 % to table 12 in ETSI EN 302 307 V1.2.1. The TYPE field is two bits. MSB is 
 % 0 = normal and 1 = short frame length. The LSB of the TYPE field is 
@@ -29,6 +31,8 @@ m = [0 0 1 0 0 1]
 
 c = mod(double(m)*double(G),2); %binary matrix multiplication assuming xor
 
+
+
 type_lsb = 1
 d = zeros([1 64]); %create repeated element codeword array
 d_odd = c; %get the odd elements for d. It's elements of c.
@@ -49,4 +53,20 @@ PLSCODE_scramble = [0 1 1 1 0 0 0 1 1 0 0 1 1 1 0 1 1 0 0 0 0 0 1 1 1 1 0 0 1 0 
 
 PLSCODE_result = xor(d, PLSCODE_scramble)
 
-save("plscode.mat", 'm', 'type_lsb' , 'PLSCODE_result')
+save("all_values_from_plscode.mat", 'm', 'type_lsb' , 'PLSCODE_result')
+
+save("plscode.mat", 'PLSCODE_result')
+
+
+type('plscode.mat')
+
+
+%c(3) = xor(c(3), 0)  %introduce an error. Or three. Along the way.
+
+H = G' % create parity check matrix by transpose binary matrix G
+test_result = mod(double(c)*double(H),2)
+
+%if the test_result is all zeros, then c is a codeword. 
+
+%load handel
+%sound(y,Fs)
